@@ -24,7 +24,7 @@ Use windows account and face photo to get valid OTP code to unlock PC.
        <img width="250px" src="https://github.com/tzongshiuan/SCS_smart_attendance/blob/master/media/04%20account%20set.jpg">
     </td>
     <td>
-       <img width="250px" src="https://github.com/tzongshiuan/SCS_smart_attendance/blob/master/media/04%20confirm%photo.jpg">
+       <img width="250px" src="https://github.com/tzongshiuan/SCS_smart_attendance/blob/master/media/04%20confirm%20photo.jpg">
     </td>
   </tr>
   <tr>
