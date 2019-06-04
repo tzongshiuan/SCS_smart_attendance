@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/surface_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" /> -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_fdr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/transparent"
+        android:visibility="invisible">
+
+        <FrameLayout
+            android:id="@+id/fdr_frame"
+            android:layout_width="@dimen/fdr_xlarge_width"
+            android:layout_height="@dimen/fdr_xlarge_height"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"></FrameLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@+id/scsMainFragment">
+
+    <fragment
+        android:id="@+id/scsMainFragment"
+        android:name="com.gorilla.attendance.enterprise.ui.ScsMainFragment"
+        android:label="ScsMainFragment" >
+        <action
+            android:id="@+id/action_scsMainFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_scsMainFragment_to_motpFragment"
+            app:destination="@id/motpFragment" />
+    </fragment>
+
+    <fragment
+        android:name="com.gorilla.attendance.enterprise.ui.login.LoginFragment"
+        android:id= "@+id/loginFragment"
+        tools:layout="@layout/login_fragment">
+        <action
+            android:id="@+id/action_loginFragment_to_pinRegisterFragment"
+            app:destination="@id/pinRegisterFragment" />
+    </fragment>
+
+    <fragment
+        android:name="com.gorilla.attendance.enterprise.ui.register.PinRegisterFragment"
+        android:id="@+id/pinRegisterFragment"
+        tools:layout="@layout/pin_register_fragment">
+        <action
+            android:id="@+id/action_pinRegisterFragment_to_enrollFragment"
+            app:destination="@id/enrollFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/enrollFragment"
+        android:name="com.gorilla.attendance.enterprise.ui.enroll.EnrollFragment"
+        android:label="enroll_fragment"
+        tools:layout="@layout/enroll_fragment" >
+        <action
+            android:id="@+id/action_enrollFragment_to_motpFragment"
+            app:destination="@id/motpFragment" />
+        <argument
+            android:name="pinCode"
+            app:argType="string"
+            android:defaultValue="hsuanPinCode" />
+        <argument
+            android:name="emergencyCode"
+            app:argType="string"
+            android:defaultValue="hsuanEmergencyCode" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/motpFragment"
+        android:name="com.gorilla.attendance.enterprise.ui.motp.MotpFragment"
+        android:label="motp_fragment"
+        tools:layout="@layout/motp_fragment" >
+        <action
+            android:id="@+id/action_motpFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">SCS</string>
+
+    <string name="txt_enterprise_title">Gorilla</string>
+    <string name="txt_enterprise_sub_title">SMART ATTENDANCE</string>
+    <string name="txt_enter_password">Enter your PIN/Password here</string>
+    <string name="txt_next">Next</string>
+    <string name="txt_employee">Employees</string>
+    <string name="txt_visitor">Visitors</string>
+
+    <string name="txt_please_input_password">PIN/Password</string>
+    <string name="txt_wrong_password">PIN/Password error. Enter your detail again</string>
+
+    <string name="txt_name_title">Name : </string>
+    <string name="txt_id_title">ID : </string>
+    <string name="txt_time_title">Time : </string>
+
+    <string name="txt_clock_in">Clock-In</string>
+    <string name="txt_clock_out">Clock-Out</string>
+    <string name="txt_open_door">Open Door</string>
+    <string name="txt_arrival">Arrival</string>
+    <string name="txt_leave">Leave</string>
+    <string name="txt_not_verified">Registration Failed</string>
+
+    <string name="txt_back_to_index">Leave</string>
+    <string name="txt_retry">Retry</string>
+    <string name="txt_one_password">Get Password</string>
+
+
+    <string name="txt_mode_rfid">Face/RFID</string>
+    <string name="txt_mode_qr_code">Face/QR-Code</string>
+    <string name="txt_mode_pin">Face/PIN Code</string>
+    <string name="txt_mode_face_icon">Face/Selection</string>
+    <string name="txt_mode_face_identification">Face/Scanning</string>
+
+    <string name="txt_clock_complete">Record Accepted</string>
+    <string name="txt_clock_fail">Error Record</string>
+
+    <string name="txt_home_page">Home</string>
+
+
+    <string name="txt_login_Error">Please add this device at the backend or add device token in device setting page</string>
+
+    <string name="txt_initial">Initializing</string>
+    <string name="toast_camera_permission">Set camera authorization settings</string>
+
+    <string name="txt_not_liveness">Re-Identify the face</string>
+    <string name="txt_title_face_icon">Select Your Profile</string>
+    <string name="txt_title_choose_module">Please Login</string>
+    <string name="txt_title_choose_mode">Verification Options</string>
+
+    <string name="txt_account">Accounts</string>
+    <string name="txt_password">Password</string>
+
+    <string name="txt_please_input_account_password">Please Enter Account and Password</string>
+    <string name="txt_log_in">Login</string>
+    <string name="txt_log_cancel">Cancel</string>
+    <string name="txt_log_done">Done</string>
+
+    <string name="txt_server_ip">Server IP</string>
+    <string name="txt_ftp_ip">FTP IP</string>
+    <string name="txt_ws_ip">WebSocket IP</string>
+    <string name="txt_ftp_account">FTP Account</string>
+    <string name="txt_ftp_password">FTP Password</string>
+    <string name="txt_device_token">Tablet/Phone Token</string>
+    <string name="txt_device_name">Tablet/Phone Name</string>
+    <string name="txt_video_idle_seconds">Idle Time</string>
+    <string name="txt_employee_open_door">Door Access (Employee)</string>
+    <string name="txt_visitor_open_door">Door Access (Visitor)</string>
+    <string name="txt_employee_three_chances">One-Time Login (Employee)</string>
+    <string name="txt_visitor_three_chances">One-Time Login (Visitor)</string>
+    <string name="txt_rtsp_setting">RTSP Settings</string>
+    <string name="txt_rtsp_ip">RTSP IP</string>
+    <string name="txt_rtsp_url">RTSP URL</string>
+    <string name="txt_rtsp_account">RTSP Account</string>
+    <string name="txt_rtsp_password">RTSP Password</string>
+
+
+    <string name="txt_liveness">Human Detection</string>
+    <string name="txt_focus_mode">Focus Mode</string>
+
+    <string name="txt_scan">Scan</string>
+    <string name="txt_open_door_1">Door1</string>
+    <string name="txt_open_door_2">Door2</string>
+
+    <string name="txt_close_door_1">Close1</string>
+    <string name="txt_close_door_2">Close2</string>
+
+    <string name="txt_end_point_title">Device Settings</string>
+    <string name="txt_bluetooth_setting">Bluetooth Settings</string>
+    <string name="txt_bluetooth_close_door_time">Door Idle Time (in seconds)</string>
+    <string name="txt_bluetooth_close_password">Password</string>
+    <string name="txt_bluetooth_close_hint_password">Enter the password</string>
+    <string name="txt_bluetooth_state">Bluetooth Connection State</string>
+
+    <string name="txt_bluetooth_state_connect">Connecting</string>
+    <string name="txt_bluetooth_state_reconnect">Reconnecting</string>
+    <string name="txt_bluetooth_state_success">Bluetooth Connection Success</string>
+    <string name="txt_bluetooth_state_fail_choose_again">Connection Failed. Choose another device</string>
+
+    <string name="txt_conf_set_wrong_password">The account or password is incorrect</string>
+    <string name="txt_save_success">Saved</string>
+
+    <string name="txt_no_connect_bluetooth_door">Bluetooth Disconnect</string>
+    <string name="txt_dialog_restart_app">These changes will restart the app</string>
+    <string name="txt_log_ok">Ok</string>
+
+    <string name="txt_http">http://</string>
+    <string name="txt_visitor_pin_code_hint">Please enter your phone number(security code)</string>
+    <string name="txt_home_setting">Settings</string>
+    <string name="txt_home_enlist">Enlist</string>
+
+    <string name="txt_employee_register">Employee Register</string>
+    <string name="txt_visitor_register">Visitor Information</string>
+
+    <string name="txt_register_input_id">Please Enter Security Code</string>
+    <string name="txt_register_input_phone_number">Please enter phone number(security code)</string>
+
+
+    <string name="txt_employee_id">Employee ID : </string>
+    <string name="txt_phone_number">Phone Number(Security Code) : </string>
+    <string name="txt_employee_name">Employee Name : </string>
+    <string name="txt_employee_email">Employee Email : </string>
+    <string name="txt_employee_password">Employee Password : </string>
+    <string name="txt_visitor_name">Visitor Name: </string>
+    <string name="txt_visitor_email">Visitor Email : </string>
+
+    <string name="register_success">Register Done</string>
+    <string name="register_fail">Register Fail</string>
+    <string name="register_fail_again">Register Fail, Please try Again</string>
+
+    <string name="register_empty">Register Info can not be empty</string>
+    <string name="register_email_invalid">Invalid Email Format</string>
+
+    <string name="input_8_digit_password">Please input 8-digit password</string>
+    <string name="location_permission">Access control needs to enable location permission</string>
+
+    <string name="txt_visitor_expire">Your password is expired</string>
+    <string name="txt_visitor_one_password">Visitor One-time Password</string>
+
+    <string name="txt_visitor_one_password_fail">Network or server fail, try again later</string>
+    <string name="txt_visitor_one_password_wrong_input">Wrong password, please start over again</string>
+    <string name="txt_visitor_one_password_title">input password from your email</string>
+
+    <string name="txt_video_idle_units">seconds</string>
+    <string name="txt_three_chances_units">3 Login Attempts</string>
+
+    <string name="txt_inno_lux">InnoLux</string>
+
+    <string name="txt_visit_fail_description">The identification failed. However, you have been granted temporary access. Please provide admin with a new photo for authentication purposes.</string>
+
+    <string name="txt_clock_auto">Clock Auto</string>
+    <string name="txt_employee_three_times_fail">Wrong password, please try again</string>
+
+    <string name="txt_employee_security_code">Security Code :</string>
+    <string name="employee_register_data_repeat">RFID or Employee ID or E-mail already exist</string>
+    <string name="visitor_register_data_repeat">Mobile No or E-mail already exist</string>
+
+
+    <string name="txt_please_swipe_the_card">Please swipe the card</string>
+    <string name="txt_please_scan_qrcode">Please scan your qrcode or barcode</string>
+    <string name="txt_card_id">Card ID</string>
+
+    <string name="txt_wrong_rfid">RFID error. Please check the rfid card or use another one</string>
+
+    <string name="txt_rescan_qrcode">Scan Again</string>
+    <string name="txt_wrong_qrcode">QRCode error. Please check the QRCode or use another one</string>
+
+    <string name="face_identify_fail"><![CDATA[<font color=\'#FC1E06\'>Face identification fail</font>]]></string>
+    <string name="identify_result_idle_seconds">Identify Idle Time</string>
+    <string name="identify_threshold">Identify Threshold</string>
+    <string name="retry">Retry</string>
+    <string name="milli_seconds">milli seconds</string>
+    <string name="invalid"><![CDATA[<font color=\'#FC1E06\'>invalid</font>]]></string>
+
+    <string name="live_detection_fail"><![CDATA[<font color=\'#F5FC06\'>Live Detection Fail</font>]]></string>
+
+
+    <string name="device_mode_title">Device Mode</string>
+    <string name="device_mode_identify">Identification</string>
+    <string name="device_mode_register">Registration</string>
+    <string name="online_mode">Online Mode</string>
+
+    <string name="txt_sync_time_out_seconds">Sync time out</string>
+    <string name="initializing_camera"><![CDATA[<font color=\'#FFFFFF\'>Initializing camera</font>]]></string>
+    <string name="please_face_forward_the_camera"><![CDATA[<font color=\'#FFFFFF\'>Please face forward the camera</font>]]></string>
+    <string name="identifying_the_face"><![CDATA[<font color=\'#FFFFFF\'>Identifying the face</font>]]></string>
+
+    <string name="can_not_clock_here_employee">This Employee Id can\'t clock in this device</string>
+    <string name="can_not_clock_here_visitor">This phone number can\'t clock in this device</string>
+    <string name="txt_security_code">Security Code : </string>
+
+    <!--===========================================-->
+    <!--============== SCS branch =================-->
+    <!--===========================================-->
+    <string name="txt_default_id">TsungHsuan, Lai</string>
+
+    <!--SCS Main Fragment-->
+    <string name="txt_gorilla">Gorilla</string>
+    <string name="txt_face_login">Face Login</string>
+    <string name="txt_face_register">Face Camera to Register</string>
+    <string name="txt_system_init">The system is initializing…</string>
+    <string name="txt_network_check">Network Check</string>
+    <string name="msg_network_check">Please confirm the network connection status.</string>
+    <string name="txt_domain_set">Domain Setting</string>
+    <string name="msg_domain_set">Please set your network domain.</string>
+    <string name="hint_domain_set">Enter network domain here</string>
+
+    <!--Login Fragment-->
+    <string name="txt_create_account">Create Account</string>
+    <string name="txt_create_account_desc">Set up account name &amp; password</string>
+    <string name="txt_ad_account">AD Account</string>
+    <string name="hint_ad_account">Enter ad account here</string>
+    <string name="txt_ad_password">Password</string>
+    <string name="hint_ad_pw">Enter password here</string>
+    <string name="msg_ad_account_empty">Ad account can not be empty</string>
+    <string name="msg_ad_password_empty">Ad password can not be empty</string>
+    <string name="msg_wong_ad_info">Wrong user name or password</string>
+
+    <!--PinRegister Fragment-->
+    <string name="txt_set_password">Set Password</string>
+    <string name="txt_set_password_desc">Input Pin &amp; Emergency Code</string>
+    <string name="txt_pin_code">Pin code</string>
+    <string name="hint_pin_code">Enter pin code here</string>
+    <string name="txt_emergency_code">Emergency code</string>
+    <string name="hint_emergency_code">Enter emergency code here</string>
+    <string name="msg_pin_code_empty">The pin code can not be empty</string>
+    <string name="msg_emergency_code_empty">The emergency code can not be empty</string>
+    <string name="msg_duplicate_pin_code">The pin code can\'t be the same as the emergency code</string>
+
+    <!--Enroll Fragment-->
+    <string name="txt_face_enroll">Face Enrollment</string>
+    <string name="txt_face_enroll_desc">Photo Confirmation</string>
+    <string name="txt_take_photo">Take New Photo</string>
+    <string name="txt_confirm">Confirm</string>
+    <string name="txt_account_completion">Account Completion</string>
+    <string name="txt_success">Success!</string>
+    <string name="txt_get_motp">Get MOTP</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_registering">Registering…</string>
+    <string name="msg_no_photo">No photo taken yet</string>
+
+    <!--MOTP Fragment-->
+    <string name="txt_get_motp_desc">Please Input Pin Code</string>
+    <string name="txt_recognition_success">Recognition Success</string>
+    <string name="txt_login_fail">Login Failed</string>
+    <string name="txt_please_try_again">Please Try Again</string>
+    <string name="txt_try_again">Try Again</string>
+    <string name="txt_could_not_detect">Could Not Detect Face</string>
+    <string name="txt_motp">MOTP:</string>
+    <string name="txt_motp_default">ABCD1234</string>
+    <string name="txt_identity_confirm">Identity Confirmed</string>
+    <string name="txt_face_detecting">Recognizing Human Face……</string>
+
+</resources>

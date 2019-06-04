@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent_white">#77FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_brown">#f7ad51</color>
+    <color name="red">#FF0000</color>
+
+
+
+    <color name="transparent">#00000000</color>
+    <color name="light_blue">#6684A7</color>
+    <color name="dark_grey">#CC4F4F4F</color>
+    <color name="fifty_transparent_white">#80FFFFFF</color>
+
+    <color name="btn_background">#F5A623</color>
+    <color name="btn_cancel_background">#4A4A4A</color>
+    <color name="btn_save_background">#4990E2</color>
+
+    <color name="success">#35FC06</color>
+    <color name="error">#FC1E06</color>
+
+    <color name="scs_page_background">#4990E2</color>
+    <color name="scs_warning_text">#880011</color>
+
+    <color name="waiting_progress_bg_t">#DFB8B8B8</color>
+    <color name="waiting_progress_bg">#FFB8B8B8</color>
+
+    <color name="waiting_progress_text">#FF6E6E6E</color>
+    <color name="waiting_progress">#009688</color>
+
+</resources>

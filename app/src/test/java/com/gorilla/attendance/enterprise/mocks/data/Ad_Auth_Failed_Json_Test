@@ -1,0 +1,7 @@
+{
+    "status": "error",
+    "error": {
+        "code": "user_forbidden_2",
+        "message": "Wrong username or password"
+    }
+}

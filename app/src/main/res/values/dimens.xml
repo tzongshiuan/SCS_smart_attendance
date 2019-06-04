@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="keyboard_right_offset">45dp</dimen>
+    <dimen name="keyboard_right_offset_phone">20dp</dimen>
+
+
+    <dimen name="fdr_normal_width">500dp</dimen>
+    <dimen name="fdr_normal_height">220dp</dimen>
+    <dimen name="fdr_large_width">800dp</dimen>
+    <dimen name="fdr_large_height">450dp</dimen>
+    <dimen name="fdr_xlarge_width">800dp</dimen>
+    <dimen name="fdr_xlarge_height">450dp</dimen>
+
+
+
+</resources>

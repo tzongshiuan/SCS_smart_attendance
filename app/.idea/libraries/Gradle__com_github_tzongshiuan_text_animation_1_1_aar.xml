@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.tzongshiuan:text_animation:1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/text_animation-1.1.aar/75e021e726445eb1a1d5f3d70dda3756/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/text_animation-1.1.aar/75e021e726445eb1a1d5f3d70dda3756/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tzongshiuan/text_animation/1.1/b109dbfcd004826d320e50772ef6ac8fcc86a4c6/text_animation-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@mipmap/switch_on_circle"
+        android:state_checked="true"/>
+
+    <item
+        android:drawable="@mipmap/switch_off_circle"
+        android:state_checked="false"/>
+
+</selector>

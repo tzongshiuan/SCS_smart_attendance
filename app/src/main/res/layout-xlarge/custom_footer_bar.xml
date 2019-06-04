@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_footer_bar_all"
+    android:layout_width="match_parent"
+    android:layout_height="95dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_footer_bar_left"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/btn_back_to_index"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/icon_back_to_home"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="@string/txt_home_setting" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_marquee_socket"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/layout_footer_bar_left"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:background="@mipmap/bg_marquee">
+
+        <RelativeLayout
+            android:id="@+id/layout_identify_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/layout_socket_state"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/txt_identify_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:singleLine="true"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:visibility="visible"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_marquee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/layout_socket_state"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="invisible"
+            >
+
+            <TextView
+                android:id="@+id/txt_marquee"
+                android:layout_width="2000dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/light_blue"
+                android:textSize="30sp"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:visibility="visible"
+                />
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/layout_socket_state"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+
+            <ImageView
+                android:id="@+id/img_socket_state"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+
+                android:background="@mipmap/icon_socket_disconnect"/>
+
+            <TextView
+                android:id="@+id/txt_client_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:text="Test1"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    
+    <RelativeLayout
+        android:id="@+id/layout_corporation"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/txt_corporation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/transparent_white"
+            android:textSize="12sp"
+            android:text="Powered by 800-pound Gorilla"/>
+
+
+        <TextView
+            android:id="@+id/txt_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txt_corporation"
+            android:textColor="@color/transparent_white"
+            android:layout_marginLeft="20dp"
+            android:textSize="12sp"
+            android:text="V1.1.2.39"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">SCS</string>
+
+    <string name="txt_enterprise_title">Gorilla</string>
+    <string name="txt_enterprise_sub_title">SMART ATTENDANCE</string>
+    <string name="txt_enter_password">請輸入密碼</string>
+    <string name="txt_next">下一步</string>
+    <string name="txt_employee">員工</string>
+    <string name="txt_visitor">訪客</string>
+
+    <string name="txt_please_input_password">編號/密碼</string>
+    <string name="txt_wrong_password">編號/密碼錯誤。請再輸入一次</string>
+
+    <string name="txt_name_title">姓名 : </string>
+    <string name="txt_id_title">編號 : </string>
+    <string name="txt_time_title">時間 : </string>
+
+    <string name="txt_clock_in">上班</string>
+    <string name="txt_clock_out">下班</string>
+    <string name="txt_open_door">開門</string>
+    <string name="txt_arrival">到訪</string>
+    <string name="txt_leave">離開</string>
+    <string name="txt_not_verified">辨識失敗</string>
+
+    <string name="txt_back_to_index">回到首頁</string>
+    <string name="txt_retry">再試一次</string>
+    <string name="txt_one_password">取得密碼</string>
+
+    <string name="txt_mode_rfid">人臉與門卡驗證</string>
+    <string name="txt_mode_qr_code">人臉與條碼驗證</string>
+    <string name="txt_mode_pin">人臉與密碼驗證</string>
+    <string name="txt_mode_face_icon">人臉與圖像驗證</string>
+    <string name="txt_mode_face_identification">人臉驗證</string>
+
+    <string name="txt_clock_complete">辨識成功</string>
+    <string name="txt_clock_fail">辨識失敗</string>
+
+    <string name="txt_home_page">回到首頁</string>
+
+    <string name="txt_login_Error">請於後台新增此裝置或至裝置設定新增裝置識別碼</string>
+    <string name="txt_initial">初始化...</string>
+    <string name="toast_camera_permission">請授權相機權限</string>
+
+    <string name="txt_not_liveness">重新辨識</string>
+
+    <string name="txt_title_face_icon">請選擇您的個人資料</string>
+    <string name="txt_title_choose_module">請選擇登入身分</string>
+    <string name="txt_title_choose_mode">請選擇驗證方式</string>
+
+    <string name="txt_account">帳號</string>
+    <string name="txt_password">密碼</string>
+
+    <string name="txt_please_input_account_password">請輸入帳號和密碼</string>
+    <string name="txt_log_in">登入</string>
+    <string name="txt_log_cancel">取消</string>
+    <string name="txt_log_done">完成</string>
+
+    <string name="txt_server_ip">Server IP</string>
+    <string name="txt_ftp_ip">FTP IP</string>
+    <string name="txt_ws_ip">WebSocket IP</string>
+    <string name="txt_ftp_account">FTP 帳號</string>
+    <string name="txt_ftp_password">FTP 密碼</string>
+    <string name="txt_device_token">平板/手機註冊碼</string>
+    <string name="txt_device_name">平板/手機編號</string>
+    <string name="txt_video_idle_seconds">閒置時間</string>
+    <string name="txt_employee_open_door">員工開門權限</string>
+    <string name="txt_visitor_open_door">訪客開門權限</string>
+    <string name="txt_employee_three_chances">員工三次輸入錯誤</string>
+    <string name="txt_visitor_three_chances">訪客三次輸入錯誤</string>
+    <string name="txt_rtsp_setting">RTSP Settings</string>
+    <string name="txt_rtsp_ip">RTSP IP</string>
+    <string name="txt_rtsp_url">RTSP URL</string>
+    <string name="txt_rtsp_account">RTSP Account</string>
+    <string name="txt_rtsp_password">RTSP Password</string>
+
+
+    <string name="txt_liveness">活體偵測</string>
+    <string name="txt_focus_mode">對焦模式</string>
+
+    <string name="txt_scan">掃描</string>
+    <string name="txt_open_door_1">開啟1號門</string>
+    <string name="txt_open_door_2">開啟2號門</string>
+
+    <string name="txt_close_door_1">關閉1號門</string>
+    <string name="txt_close_door_2">關閉2號門</string>
+
+
+    <string name="txt_end_point_title">裝置設定</string>
+    <string name="txt_bluetooth_setting">藍芽設定</string>
+    <string name="txt_bluetooth_close_door_time">自動關門間隔</string>
+    <string name="txt_bluetooth_close_password">密碼</string>
+    <string name="txt_bluetooth_close_hint_password">請輸入密碼</string>
+    <string name="txt_bluetooth_state">藍芽連接狀態</string>
+
+    <string name="txt_bluetooth_state_connect">連線中...</string>
+    <string name="txt_bluetooth_state_reconnect">重新連線中...</string>
+    <string name="txt_bluetooth_state_success">連線成功</string>
+    <string name="txt_bluetooth_state_fail_choose_again">連線失敗，選擇其他裝置</string>
+
+    <string name="txt_conf_set_wrong_password">帳號或密碼錯誤</string>
+    <string name="txt_save_success">儲存成功</string>
+
+    <string name="txt_no_connect_bluetooth_door">藍芽連線失敗</string>
+    <string name="txt_dialog_restart_app">修改後會重開APP</string>
+    <string name="txt_log_ok">確定</string>
+
+    <string name="txt_http">http://</string>
+    <string name="txt_visitor_pin_code_hint">請輸入電話號碼(security code)</string>
+    <string name="txt_home_setting">終端設定</string>
+    <string name="txt_home_enlist">Enlist</string>
+
+    <string name="txt_employee_register">員工註冊</string>
+    <string name="txt_visitor_register">訪客註冊資訊</string>
+
+    <string name="txt_register_input_id">請輸入密碼</string>
+    <string name="txt_register_input_phone_number">請輸入電話(Security Code)</string>
+
+
+    <string name="txt_employee_id">員工編號 : </string>
+    <string name="txt_phone_number">電話(Security Code) : </string>
+    <string name="txt_employee_name">員工姓名 : </string>
+    <string name="txt_employee_email">E-Mail : </string>
+    <string name="txt_employee_password">密碼 : </string>
+    <string name="txt_visitor_name">訪客姓名: </string>
+    <string name="txt_visitor_email">E-Mail : </string>
+
+    <string name="register_success">成功</string>
+    <string name="register_fail">失敗</string>
+    <string name="register_fail_again">失敗, 請再試一次</string>
+
+    <string name="register_empty">註冊欄位不可為空</string>
+    <string name="register_email_invalid">Email格式錯誤</string>
+
+    <string name="input_8_digit_password">請輸入8位數密碼</string>
+    <string name="location_permission">門禁系統需要位置權限開啟</string>
+
+    <string name="txt_visitor_expire">您的密碼已過期</string>
+    <string name="txt_visitor_one_password">訪客一次性密碼</string>
+    <string name="txt_visitor_one_password_fail">網路或是伺服器錯誤，請再試一次</string>
+    <string name="txt_visitor_one_password_wrong_input">密碼錯誤，請重新操作</string>
+    <string name="txt_visitor_one_password_title">請輸入Email中的密碼</string>
+
+    <string name="txt_video_idle_units">秒</string>
+    <string name="txt_three_chances_units">三次錯誤</string>
+
+    <string name="txt_inno_lux">群創</string>
+
+    <string name="txt_visit_fail_description">識別失敗，驗證碼認證通過，暫且放行，請向管理員提供更好的照片，重新註冊人臉</string>
+
+    <string name="txt_clock_auto">選擇上班/下班</string>
+    <string name="txt_employee_three_times_fail">編號/密碼錯誤，請重新辨識</string>
+
+    <string name="txt_employee_security_code">Security Code :</string>
+    <string name="employee_register_data_repeat">RFID 或 員工編號 或 E-mail 已經存在</string>
+    <string name="visitor_register_data_repeat">電話號碼 或 E-mail 已經存在</string>
+
+    <string name="txt_please_swipe_the_card">Please swipe the card</string>
+    <string name="txt_please_scan_qrcode">Please scan your qrcode or barcode</string>
+    <string name="txt_card_id">Card ID</string>
+
+    <string name="txt_wrong_rfid">RFID error. Please check the rfid card or use another one</string>
+
+    <string name="txt_rescan_qrcode">Scan Again</string>
+    <string name="txt_wrong_qrcode">QRCode error. Please check the QRCode or use another one</string>
+
+    <string name="face_identify_fail"><![CDATA[<font color=\'#FC1E06\'>Face identification fail</font>]]></string>
+    <string name="identify_result_idle_seconds">驗證訊息提示時間</string>
+    <string name="identify_threshold">辨識門檻值</string>
+    <string name="retry">辨識次數</string>
+    <string name="milli_seconds">milli seconds</string>
+    <string name="invalid"><![CDATA[<font color=\'#FC1E06\'>invalid</font>]]></string>
+
+    <string name="live_detection_fail"><![CDATA[<font color=\'#F5FC06\'>Live Detection Fail</font>]]></string>
+
+
+    <string name="device_mode_title">運作模式</string>
+    <string name="device_mode_identify">Identification</string>
+    <string name="device_mode_register">Registration</string>
+    <string name="online_mode">Online Mode</string>
+
+    <string name="txt_sync_time_out_seconds">同步超時</string>
+    <string name="initializing_camera"><![CDATA[<font color=\'#FFFFFF\'>初始化攝影機</font>]]></string>
+    <string name="please_face_forward_the_camera"><![CDATA[<font color=\'#FFFFFF\'>請將臉部對準鏡頭前方</font>]]></string>
+    <string name="identifying_the_face"><![CDATA[<font color=\'#FFFFFF\'>人臉辨識中</font>]]></string>
+
+    <string name="can_not_clock_here_employee">此密碼無法在這台裝置上打卡</string>
+    <string name="can_not_clock_here_visitor">此電話號碼無法在這台裝置上打卡</string>
+    <string name="txt_security_code">密碼 : </string>
+
+    <!--===========================================-->
+    <!--============== SCS branch =================-->
+    <!--===========================================-->
+    <string name="txt_default_id">TsungHsuan, Lai</string>
+
+    <!--SCS Main Fragment-->
+    <string name="txt_gorilla">Gorilla</string>
+    <string name="txt_face_login">Face Login</string>
+    <string name="txt_face_register">Face Camera to Register</string>
+    <string name="txt_system_init">The system is initializing…</string>
+    <string name="txt_network_check">Network Check</string>
+    <string name="msg_network_check">Please confirm the network connection status.</string>
+    <string name="txt_domain_set">Domain Setting</string>
+    <string name="msg_domain_set">Please set your network domain.</string>
+    <string name="hint_domain_set">Enter network domain here</string>
+
+    <!--Login Fragment-->
+    <string name="txt_create_account">Create Account</string>
+    <string name="txt_create_account_desc">Set up account name &amp; password</string>
+    <string name="txt_ad_account">AD Account</string>
+    <string name="hint_ad_account">Enter ad account here</string>
+    <string name="txt_ad_password">Password</string>
+    <string name="hint_ad_pw">Enter password here</string>
+    <string name="msg_ad_account_empty">Ad account can not be empty</string>
+    <string name="msg_ad_password_empty">Ad password can not be empty</string>
+    <string name="msg_wong_ad_info">Wrong user name or password</string>
+
+    <!--PinRegister Fragment-->
+    <string name="txt_set_password">Set Password</string>
+    <string name="txt_set_password_desc">Input Pin &amp; Emergency Code</string>
+    <string name="txt_pin_code">Pin code</string>
+    <string name="hint_pin_code">Enter pin code here</string>
+    <string name="txt_emergency_code">Emergency code</string>
+    <string name="hint_emergency_code">Enter emergency code here</string>
+    <string name="msg_pin_code_empty">The pin code can not be empty</string>
+    <string name="msg_emergency_code_empty">The emergency code can not be empty</string>
+    <string name="msg_duplicate_pin_code">The pin code can\'t be the same as the emergency code</string>
+
+    <!--Enroll Fragment-->
+    <string name="txt_face_enroll">Face Enrollment</string>
+    <string name="txt_face_enroll_desc">Photo Confirmation</string>
+    <string name="txt_take_photo">Take New Photo</string>
+    <string name="txt_confirm">Confirm</string>
+    <string name="txt_account_completion">Account Completion</string>
+    <string name="txt_success">Success!</string>
+    <string name="txt_get_motp">Get MOTP</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_registering">Registering…</string>
+    <string name="msg_no_photo">No photo taken yet</string>
+
+    <!--MOTP Fragment-->
+    <string name="txt_get_motp_desc">Please Input Pin Code</string>
+    <string name="txt_recognition_success">Recognition Success</string>
+    <string name="txt_login_fail">Login Failed</string>
+    <string name="txt_please_try_again">Please Try Again</string>
+    <string name="txt_try_again">Try Again</string>
+    <string name="txt_could_not_detect">Could Not Detect Face</string>
+    <string name="txt_motp">MOTP:</string>
+    <string name="txt_motp_default">ABCD1234</string>
+    <string name="txt_identity_confirm">Identity Confirmed</string>
+    <string name="txt_face_detecting">Recognizing Human Face……</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../FDRControl" />
+            <option value="$PROJECT_DIR$/../LicensingLibrary" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../downloader_library" />
+            <option value="$PROJECT_DIR$/../downloader_sub_library" />
+            <option value="$PROJECT_DIR$/../enroll" />
+            <option value="$PROJECT_DIR$/../zip_file" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

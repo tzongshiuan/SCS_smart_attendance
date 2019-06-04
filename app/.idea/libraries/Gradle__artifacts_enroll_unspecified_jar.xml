@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:enroll:unspecified@jar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EnrollLib_20171024.aar/a565d2193fa9f30018fb18f8f293d015/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EnrollLib_20171024.aar/a565d2193fa9f30018fb18f8f293d015/jars/libs/okio-1.12.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EnrollLib_20171024.aar/a565d2193fa9f30018fb18f8f293d015/jars/libs/commons-io-2.4.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EnrollLib_20171024.aar/a565d2193fa9f30018fb18f8f293d015/jars/libs/acssmc-1.1.3.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EnrollLib_20171024.aar/a565d2193fa9f30018fb18f8f293d015/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EnrollLib_20171024.aar/a565d2193fa9f30018fb18f8f293d015/jars/libs/okhttp-2.7.5.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EnrollLib_20171024.aar/a565d2193fa9f30018fb18f8f293d015/jars/libs/ImageLoader.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="550dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/layout_login_all"
+        android:layout_width="550dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/bg_dialog">
+
+        <ImageView
+            android:id="@+id/img_login_photo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:scaleType="centerCrop"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:id="@+id/layout_login_info"
+            android:layout_toRightOf="@+id/img_login_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/layout_login_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/txt_login_name_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:text="@string/txt_name_title"/>
+
+                <TextView
+                    android:id="@+id/txt_login_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_login_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/txt_login_id_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:text="@string/txt_id_title"/>
+
+                <TextView
+                    android:id="@+id/txt_login_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_login_fail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_login_fail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red"
+                    android:text="@string/txt_not_verified"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/txt_login_fail_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_login_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_login_time_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="@string/txt_time_title"/>
+
+                <TextView
+                    android:id="@+id/txt_login_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red"
+                    android:textSize="14sp"
+                    android:text="@string/txt_visit_fail_description"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_clock_info"
+        android:layout_width="550dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/layout_login_all"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_clock_in"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:text="@string/txt_clock_in"/>
+
+        <Button
+            android:id="@+id/btn_clock_out"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:text="@string/txt_clock_out"/>
+
+        <Button
+            android:id="@+id/btn_open_door"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:text="@string/txt_open_door"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

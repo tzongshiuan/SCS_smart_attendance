@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="7dp">
+
+    <LinearLayout
+        android:id="@+id/first_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/number_1"
+            style="@style/KeyboardButtonPhone.TextButton.Number"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/number_2"
+            style="@style/KeyboardButtonPhone.TextButton.Number"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/number_3"
+            style="@style/KeyboardButtonPhone.TextButton.Number"
+            android:text="3" />
+
+        <TextView
+            android:id="@+id/number_4"
+            style="@style/KeyboardButtonPhone.TextButton.Number"
+            android:text="4" />
+
+        <TextView
+            android:id="@+id/number_5"
+            style="@style/KeyboardButtonPhone.TextButton.Number"
+            android:text="5" />
+
+        <TextView
+            android:id="@+id/number_6"
+            style="@style/KeyboardButtonPhone.TextButton.Number"
+            android:text="6" />
+
+        <TextView
+            android:id="@+id/number_7"
+            style="@style/KeyboardButtonPhone.TextButton.Number"
+            android:text="7" />
+
+        <TextView
+            android:id="@+id/number_8"
+            style="@style/KeyboardButtonPhone.TextButton.Number"
+            android:text="8" />
+
+        <TextView
+            android:id="@+id/number_9"
+            style="@style/KeyboardButtonPhone.TextButton.Number"
+            android:text="9" />
+
+        <TextView
+            android:id="@+id/number_0"
+            style="@style/KeyboardButtonPhone.TextButton.Number"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/symbol_dash"
+            style="@style/KeyboardButtonPhone.TextButton.Symbol"
+            android:text="-" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/first_row"
+        android:layout_below="@+id/first_row"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/keyboard_right_offset_phone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/alphabet_q"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="q" />
+
+        <TextView
+            android:id="@+id/alphabet_w"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="w" />
+
+        <TextView
+            android:id="@+id/alphabet_e"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="e" />
+
+        <TextView
+            android:id="@+id/alphabet_r"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="r" />
+
+        <TextView
+            android:id="@+id/alphabet_t"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="t" />
+
+        <TextView
+            android:id="@+id/alphabet_y"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="y" />
+
+        <TextView
+            android:id="@+id/alphabet_u"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="u" />
+
+        <TextView
+            android:id="@+id/alphabet_i"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="i" />
+
+        <TextView
+            android:id="@+id/alphabet_o"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="o" />
+
+        <TextView
+            android:id="@+id/alphabet_p"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="p" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/third_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/third_row_block"
+        android:layout_below="@+id/second_row"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/alphabet_a"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="a" />
+
+        <TextView
+            android:id="@+id/alphabet_s"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="s" />
+
+        <TextView
+            android:id="@+id/alphabet_d"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="d" />
+
+        <TextView
+            android:id="@+id/alphabet_f"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="f" />
+
+        <TextView
+            android:id="@+id/alphabet_g"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="g" />
+
+        <TextView
+            android:id="@+id/alphabet_h"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="h" />
+
+        <TextView
+            android:id="@+id/alphabet_j"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="j" />
+
+        <TextView
+            android:id="@+id/alphabet_k"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="k" />
+
+        <TextView
+            android:id="@+id/alphabet_l"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="l" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourth_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/third_row"
+        android:layout_toLeftOf="@+id/fourth_row_block"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/alphabet_z"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="z" />
+
+        <TextView
+            android:id="@+id/alphabet_x"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="x" />
+
+        <TextView
+            android:id="@+id/alphabet_c"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="c" />
+
+        <TextView
+            android:id="@+id/alphabet_v"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="v" />
+
+        <TextView
+            android:id="@+id/alphabet_b"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="b" />
+
+        <TextView
+            android:id="@+id/alphabet_n"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="n" />
+
+        <TextView
+            android:id="@+id/alphabet_m"
+            style="@style/KeyboardButtonPhone.TextButton.Alphabet"
+            android:text="m" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourth_row_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fourth_row"
+        android:layout_alignRight="@+id/third_row"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <View
+            style="@style/KeyboardButtonPhoneDelete"/>
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="@dimen/keyboard_right_offset_phone" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/third_row_block"
+        android:layout_below="@+id/second_row"
+        android:layout_alignRight="@+id/second_row"
+        android:layout_width="@dimen/keyboard_right_offset_phone"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:id="@+id/function_cap"
+        style="@style/KeyboardButtonPhoneDelete"
+        android:layout_width="match_parent"
+        android:layout_alignLeft="@+id/first_row"
+        android:layout_below="@+id/third_row"
+        android:layout_toLeftOf="@+id/fourth_row"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:gravity="left|center_vertical">
+        <TextView
+            android:id="@+id/function_cap_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="Cap"/>
+
+        <ImageView
+            android:id="@+id/function_cap_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/btn_cap_n"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/function_delete"
+        style="@style/KeyboardButtonPhoneDelete"
+        android:layout_width="match_parent"
+        android:layout_alignLeft="@+id/third_row_block"
+        android:layout_alignRight="@id/first_row"
+        android:layout_below="@+id/second_row"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/function_delete_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/btn_del_n"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/function_enter"
+        style="@style/KeyboardButtonPhoneDelete"
+        android:layout_width="match_parent"
+        android:layout_alignLeft="@+id/fourth_row_block"
+        android:layout_alignRight="@+id/first_row"
+        android:layout_alignTop="@+id/fourth_row_block"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:orientation="horizontal"
+        android:gravity="left|bottom">
+
+        <TextView
+            android:id="@+id/function_enter_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="Enter"/>
+
+        <ImageView
+            android:id="@+id/function_enter_text_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/btn_enter_n"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

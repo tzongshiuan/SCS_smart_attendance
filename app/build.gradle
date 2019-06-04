@@ -1,0 +1,109 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'androidx.navigation.safeargs'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.gorilla.attendance.enterprise"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 41
+        versionName "1.1.2.39"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        mavenCentral()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    // Program type already present:okio.AsyncTimeout$Watchdog Message{kind=ERROR, text=Program type :okio
+    configurations {
+        all*.exclude group: 'com.squareup.okio'
+        all*.exclude group: 'com.android.support', module: 'support-v13'
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation 'com.android.support:support-v4:28.0.0'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testImplementation 'junit:junit:4.12'
+    //    compile files('libs/commons-net-3.3.jar')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.0.1'
+    //    compile 'commons-io:commons-io:2.4'
+    //    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+    //    compile files('libs/ImageLoader.jar')
+    //    compile 'com.android.support:multidex:1.0.0'
+    implementation 'org.java-websocket:Java-WebSocket:1.3.0'
+    implementation 'com.viewpagerindicator:library:2.4.1@aar'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:multidex:1.0.0'
+    implementation project(':enroll')
+    implementation project(':downloader_library')
+    implementation project(':zip_file')
+    implementation project(':FDRControl')
+    implementation 'com.journeyapps:zxing-android-embedded:3.5.0'
+    //    implementation 'pub.devrel:easypermissions:2.0.0'
+    implementation 'pub.devrel:easypermissions:1.2.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'android.arch.navigation:navigation-fragment:1.0.0-beta02'
+    implementation 'android.arch.navigation:navigation-ui:1.0.0-beta02'
+    //implementation 'com.facebook.fresco:fresco:1.4.0'
+    implementation 'com.mikhaellopez:circularimageview:3.2.0'
+    // RxJava2
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.2'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$rootProject.retrofitVersion"
+    //for print http log
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    // unit test
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.mockito:mockito-core:2.19.0'
+    testImplementation 'org.mockito:mockito-inline:2.19.0'
+    androidTestImplementation 'org.mockito:mockito-android:2.19.0'
+    androidTestImplementation 'android.arch.core:core-testing:1.1.1'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation files('libs/otp.jar')
+
+    // hsuan git
+    implementation 'com.github.tzongshiuan:text_animation:1.1'
+}

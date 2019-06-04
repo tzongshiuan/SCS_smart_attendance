@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+
+        <RelativeLayout
+            android:id="@+id/layout_pin_code"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_pin_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_launcher"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/txt_pin_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_pin_code"
+                android:layout_centerHorizontal="true"
+                android:text="Pin Code"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_face_icon"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_face_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_launcher"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/txt_face_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_face_icon"
+                android:layout_centerHorizontal="true"
+                android:text="Face Icon"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_face_identification"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_face_identification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_launcher"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/txt_face_identification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_face_identification"
+                android:layout_centerHorizontal="true"
+                android:text="Face Identification"/>
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
